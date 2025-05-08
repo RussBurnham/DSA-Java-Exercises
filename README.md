@@ -2,6 +2,7 @@
 
 ![Java](https://img.shields.io/badge/language-Java-blue)
 ![Java CI](https://github.com/RussBurnham/DSA-Java-Exercises/actions/workflows/maven.yml/badge.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 A collection of data structures and algorithm exercises in Java. CLI-based, self-contained, and beginner-friendly.
 
@@ -92,3 +93,9 @@ The project is divided into three main sections:
 ## Acknowledgments
 
 This project is based on exercises from the excellent _The Ultimate Data Structures and Algorithms_ series by [CodeWithMosh](https://codewithmosh.com/).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).  
+You are free to use, modify, and distribute this project for personal or commercial purposes.
+
