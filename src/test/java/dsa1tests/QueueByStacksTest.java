@@ -36,7 +36,7 @@ public class QueueByStacksTest {
         queue.enqueue(20);
         queue.enqueue(30);
         assertEquals(10, queue.peek());
-        assertEquals("Queue: [10, 20, 30]", queue.toString());
+        assertEquals("\nQueueByStacks: [10, 20, 30]", queue.toString());
     }
 
     @Test
@@ -99,12 +99,12 @@ public class QueueByStacksTest {
         queue.enqueue(5);
         queue.enqueue(10);
         queue.enqueue(15);
-        assertEquals("Queue: [5, 10, 15]", queue.toString());
+        assertEquals("\nQueueByStacks: [5, 10, 15]", queue.toString());
 
         queue.dequeue();
-        assertEquals("Queue: [10, 15]", queue.toString());
+        assertEquals("\nQueueByStacks: [10, 15]", queue.toString());
 
         queue.enqueue(20);
-        assertEquals("Queue: [10, 15, 20]", queue.toString());
+        assertEquals("\nQueueByStacks: [10, 15, 20]", queue.toString());
     }
 }

@@ -29,7 +29,7 @@ public class ArrayQueueTest {
         queue.enqueue(5);
         assertTrue(queue.isEmpty() == false);
         assertEquals(5, queue.peek());
-        assertEquals("ArrayQueue: [5]", queue.toString());
+        assertTrue(queue.toString().equals("\nArrayQueue: [5]"));
     }
 
     @Test
@@ -54,10 +54,10 @@ public class ArrayQueueTest {
         queue.enqueue(3);
         queue.enqueue(4);
         queue.enqueue(5);
-        assertEquals("ArrayQueue: [1, 1, 2, 3, 4, 5]", queue.toString());
+        assertEquals("\nArrayQueue: [1, 1, 2, 3, 4, 5]", queue.toString());
         queue.dequeue();
         queue.dequeue();
         assertEquals(2, queue.peek());
-        assertEquals("ArrayQueue: [2, 3, 4, 5]", queue.toString());
+        assertEquals("\nArrayQueue: [2, 3, 4, 5]", queue.toString());
     }
 }

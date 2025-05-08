@@ -38,7 +38,7 @@ public class StackByQueuesTest {
         stack.push(3);
         assertEquals(3, stack.peek());
         assertEquals(3, stack.size());
-        assertEquals("[1, 2, 3]", stack.toString());
+        assertEquals("\nStackByQueues: [1, 2, 3]", stack.toString());
     }
 
     @Test
@@ -103,9 +103,9 @@ public class StackByQueuesTest {
         stack.push(8);
         stack.push(9);
         stack.push(10);
-        assertEquals("[8, 9, 10]", stack.toString());
+        assertEquals("\nStackByQueues: [8, 9, 10]", stack.toString());
 
         stack.pop();
-        assertEquals("[8, 9]", stack.toString());
+        assertEquals("\nStackByQueues: [8, 9]", stack.toString());
     }
 }

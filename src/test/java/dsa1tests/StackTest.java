@@ -36,7 +36,7 @@ public class StackTest {
         stack.push(20);
         stack.push(30);
         assertEquals(30, stack.peek());
-        assertEquals("Stack: [10, 20, 30]", stack.toString());
+        assertEquals("\nStack: [10, 20, 30]", stack.toString());
     }
 
     @Test
@@ -96,9 +96,9 @@ public class StackTest {
     public void testToStringReflectsStackState() {
         stack.push(5);
         stack.push(15);
-        assertEquals("Stack: [5, 15]", stack.toString());
+        assertEquals("\nStack: [5, 15]", stack.toString());
 
         stack.pop();
-        assertEquals("Stack: [5]", stack.toString());
+        assertEquals("\nStack: [5]", stack.toString());
     }
 }

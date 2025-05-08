@@ -85,6 +85,6 @@ public class LinkedListQueueTest {
     public void testToString() {
         queue.enqueue(7);
         queue.enqueue(8);
-        assertEquals("[7, 8]", queue.toString());
+        assertEquals("\nLinkedListQueue: [7, 8]", queue.toString());
     }
 }
